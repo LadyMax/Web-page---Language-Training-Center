@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>register</title>
+   <!--  import page ico -->
+   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+   <!-- import reset styly -->
+   <link rel="stylesheet" href="../css/reset.css">
+   <!-- import style -->
+   <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+   <!-- control footer -->
+   <div class="page-container">
+      <div id="content-wrap">
+
+         <!-- top -->
+         <div class="topbar">
+            <!-- page -->
+            <div class="container clearfix">
+               <!-- leftside-welcome -->
+               <div class="welcome leftfix">
+                  <span>Welcome to Linköping language training center</span>
+               </div>
+               <!-- rightside-tel+email -->
+               <div class="tel-email rightfix">
+                  <span><a href="tel: +46 76 1717 996">Tel: +46 76 1717 996</a></span>
+                  <span><a href="mailto: info@linkopingltc.com">Email: info@linkopingltc.com</a></span>
+               </div>
+            </div>
+         </div>
+
+         <!-- header -->
+         <div class="header">
+            <div class="container clearfix">
+               <!-- logo img -->
+               <div class="logo leftfix">
+                  <img src="../images/logo.png" alt="logo">
+               </div>
+               <!-- main-nav -->
+               <nav class="main-nav rightfix clearfix">
+                  <ul>
+                     <li><a href="./index.html" target="_self" title="home page">Home</a></li>
+                     <li><a href="#our-course" target="_self" title="view our courses">Courses</a></li>
+                     <li><a href="./register_form.html" target="_blank" title="join us">Register</a></li>
+                     <li><a href="./about.html" target="_blank" title="about us">About us</a></li>
+                     <li><a href="./contact.html" target="_blank" title="contact us">Contact us</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+
+         <!-- register -->
+         <div class="form">
+            <form action="#" id="fr" method="post">
+               <!-- title -->
+               <div class="register-title">Sign up</div>
+               <!-- form -->
+               <!-- username -->
+               <div class="inputcontainer">
+                  <label for="username">Username</label>
+                  <input type="text" id="username" placeholder="username" title="enter your username" required>
+               </div>
+               <!-- password -->
+               <div class="inputcontainer">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" placeholder="******" title="enter your password" required>
+               </div>
+               <!-- confirm password -->
+               <div class="inputcontainer">
+                  <label for="confirm-password">Confirm password</label>
+                  <input type="password" id="confirm-password" placeholder="******" title="enter your password again"
+                     required>
+               </div>
+               <!-- email -->
+               <div class="inputcontainer">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="name@example.com" title="enter your email" required>
+               </div>
+               <!-- phone -->
+               <div class="inputcontainer">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" placeholder="+46" title="enter your phone number" required>
+               </div>
+
+               <!-- choose coures -->
+               <div class="inputcontainer">
+                  <label for="chooes-course">Choose course</label>
+                  <select id="chooes-course" title="please select a course" required>
+                     <option value="">--- SELECT ---</option>
+                     <option value="chinese">Chinese</option>
+                     <option value="english">English</option>
+                     <option value="french">French</option>
+                     <option value="japanese">Japanese</option>
+                     <option value="spanish">Spanish</option>
+                     <option value="swedish">Swedish</option>
+                  </select>
+               </div>
+
+               <!-- start course -->
+               <div class="inputcontainer">
+                  <label for="start-course">Start time</label>
+                  <input type="date" id="start-course" title="when do you want to start your course" required>
+               </div>
+               <!-- comments -->
+               <div class="inputcontainer">
+                  <label for="comments">Message:</label>
+                  <textarea id="comments" placeholder="comments......" title="any questions or comments"
+                     required></textarea>
+               </div>
+               <!-- summit -->
+               <div>
+                  <button type="submit" title="send to us">Send</button>
+               </div>
+            </form>
+         </div>
+      </div>
+
+   </div>
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <!-- footer nav -->
+         <div class="footer-nav">
+            <span><a href="./index.html" target="_self" title="home page">Home</a></span>
+            <span><a href="./index.html" target="_self" title="view our courses">Courses</a></span>
+            <span><a href="./register_form.html" target="_self" title="join us">Register</a></span>
+            <span><a href="./about.html" target="_self" title="about us">About us</a></span>
+            <span><a href="./contact.html" target="_self" title="contact us">Contact us</a></span>
+         </div>
+         <!-- footer logo -->
+         <div class="footer-logo"><img src="../images/logo.png" alt="logo"></div>
+
+         <!-- bottom -->
+         <div class="language-training-center">Copyright & copy; 2024 <a href="./index.html">Linköping Language Training
+               Center.</a> All rights reserved.</div>
+      </div>
+   </footer>
+   </div>
+</body>
+</html>
+
+
+A school'ssimple page with HTML and CSS. It contains home page, course, contact and registration pages.
