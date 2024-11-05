@@ -47,24 +47,16 @@
  .main-nav {
     float: right;
     height: 68px;
+    text-align: center;
     line-height: 68px;
     font-size: 25px;
  }
  .main-nav li {
     float: left;
     margin: 0 20px;
+    position: relative;
  }
 
- .main-nav {
-   text-align: center;
-   height: 68px;
-   line-height: 68px;
-   font-size: 25px;   
- }
- .main-nav li {
-    float: left;
-    margin: 0 20px;
- }
 .main-nav li a {
     color: #fa6a90;
     text-decoration: none;
@@ -73,7 +65,22 @@
 .main-nav li a:hover {
    background-color: #7df7f9;
 }
- 
+/* the second plane */
+.second-menu {
+   width : auto;
+   height: auto;
+   background-color: #bdeced;
+   position: absolute;
+   top: 68px;
+   left: 0;
+   display: none;
+   font-size: 20px;
+}
+.main-nav li:hover .second-menu {
+   display: block;
+}
+
+
  /* #endregion header end*/
 
  /* #region banner start*/
